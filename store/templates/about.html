@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+<div class="text-center">
+  <br>
+  <br>
+  <h1 class="text-center product_title">
+    This is an E-commerce Website!
+  </h1>
+  <br>
+  <p>
+    <a href="{% url 'signup' %}"<b>Sign Up</b></a> to create an account and proceed to search and buy the items you want.
+  </p>
+  <p>
+    Or fill the <a href="{% url 'contact' %}"<b>contact form</b></a> to contact us.
+  </p>
+</div>
+{% endblock %}
