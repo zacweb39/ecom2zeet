@@ -82,8 +82,8 @@ def cart_detail(request, total=0, counter=0, cart_items=None):
             phone= payment_form.cleaned_data.get("phone")
 
             data = json.dumps({
-                "username": "fff38ae575675f5e",
-                "password": "1fc175f6f9fb87d0",
+                "username": "",
+                "password": "",
                 "action": "mmdeposit",
                 "amount": amount,
                 "currency": "UGX",
